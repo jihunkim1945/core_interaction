@@ -90,8 +90,10 @@ tv.addEventListener("click", () => {
   document.body.classList.add("isEntering");
   frame.classList.add("isEntering");
 
-
-
+  setTimeout(() => {
+    window.location.href = NEXT_PAGE;
+  }, 420);
+});
 
 tv.addEventListener("click", () => {
   window.location.href = "./menu_page/menu.html";
