@@ -97,7 +97,7 @@ tv.addEventListener("click", () => {
 
 
 tv.addEventListener("click", () => {
-  window.location.href = "../menu_page/menu.html";
+  window.location.href = "./menu_page/menu.html";
 });
 
 (() => {
